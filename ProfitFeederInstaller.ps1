@@ -48,9 +48,3 @@ $PoloProfitTrailerFolder = Read-Host -Prompt 'Where is the root your Profit Trai
 
 #TO DO - FIX#
 #(Get-Content $InstallPath\ptfeeder\config\hostsettings.json).Replace("`"PoloPairsLocation`": `"`"C:\\pt\\vps\\pt\\polo\\trading", "`"PoloPairsLocation`": `"" + $PoloProfitTrailerFolder + "`"") | Set-Content $InstallPath\ptfeeder\config\hostsettings3.json 
-
-
-#   "TrexPairsLocation": "",
-#   "PoloPairsLocation": "C:\\pt\\vps\\pt\\polo\\trading",
-#   "BinancePairsLocation": "",
-
